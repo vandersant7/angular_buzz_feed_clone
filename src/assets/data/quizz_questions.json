@@ -1,55 +1,166 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
+  "title": "Você seria um heroi ou vilão?",
+  "questions": [
     {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+      "id": 1,
+      "question": "Qual super poder você escolheria?",
+      "options": [
+        { "id": 1, "name": "Raios-Lasers", "alias": "A" },
+        { "id": 2, "name": "Voar", "alias": "B" },
+        { "id": 3, "name": "Explodir coisas", "alias": "A" },
+        { "id": 4, "name": "Curar feridas", "alias": "B" },
+        { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" }
       ]
     },
     {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+      "id": 2,
+      "question": "Quem você salvaria primeiro?",
+      "options": [
+        { "id": 1, "name": "Crianças", "alias": "B" },
+        { "id": 2, "name": "Idosos", "alias": "B" },
+        { "id": 3, "name": "Não salvaria ninguém", "alias": "A" },
+        {
+          "id": 4,
+          "name": "Pessoas que possam retribuir o favor",
+          "alias": "A"
+        },
+        { "id": 5, "name": "Animais de estimação", "alias": "B" }
       ]
     },
     {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+      "id": 3,
+      "question": "Qual a sua maior preocupação ao enfrentar outro super ser?",
+      "options": [
+        { "id": 1, "name": "Não destruir prédios", "alias": "B" },
+        { "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
+        { "id": 3, "name": "Não sujar meu traje", "alias": "A" },
+        { "id": 4, "name": "Não deixar ninguém se ferir", "alias": "B" },
+        { "id": 5, "name": "Demonstrar meu poder para todos", "alias": "A" }
       ]
     },
     {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+      "id": 4,
+      "question": "Qual o seu maior foco?",
+      "options": [
+        { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
+        { "id": 2, "name": "Salvar a cidade", "alias": "B" },
+        { "id": 3, "name": "Obter controle total", "alias": "A" },
+        { "id": 4, "name": "Proteger a natureza", "alias": "B" },
+        { "id": 5, "name": "Destruir meus inimigos", "alias": "A" }
       ]
     },
     {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+      "id": 5,
+      "question": "Qual o seu apelido de super ser?",
+      "options": [
+        { "id": 1, "name": "O Terrível", "alias": "A" },
+        { "id": 2, "name": "Amigo da Vizinhança", "alias": "B" },
+        { "id": 3, "name": "O Temível", "alias": "A" },
+        { "id": 4, "name": "Guardião da Paz", "alias": "B" },
+        { "id": 5, "name": "O Destruidor", "alias": "A" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Onde você construiria sua base secreta?",
+      "options": [
+        { "id": 1, "name": "No subsolo de um vulcão", "alias": "A" },
+        { "id": 2, "name": "No topo de um arranha-céu", "alias": "B" },
+        { "id": 3, "name": "No fundo do mar", "alias": "B" },
+        { "id": 4, "name": "Em uma ilha deserta", "alias": "A" },
+        { "id": 5, "name": "No meio de uma floresta", "alias": "B" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual seria sua maior fraqueza?",
+      "options": [
+        { "id": 1, "name": "Ser muito confiante", "alias": "A" },
+        { "id": 2, "name": "Se preocupar demais com os outros", "alias": "B" },
+        { "id": 3, "name": "Ficar facilmente irritado", "alias": "A" },
+        { "id": 4, "name": "Ser teimoso", "alias": "A" },
+        { "id": 5, "name": "Medo de perder entes queridos", "alias": "B" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Qual seu veículo de escolha?",
+      "options": [
+        { "id": 1, "name": "Um tanque blindado", "alias": "A" },
+        { "id": 2, "name": "Um jato furtivo", "alias": "B" },
+        { "id": 3, "name": "Uma moto super rápida", "alias": "B" },
+        { "id": 4, "name": "Um carro luxuoso", "alias": "A" },
+        { "id": 5, "name": "Um helicóptero", "alias": "B" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Quem seria seu maior inimigo?",
+      "options": [
+        { "id": 1, "name": "Outro super ser", "alias": "A" },
+        { "id": 2, "name": "Seu próprio ego", "alias": "B" },
+        { "id": 3, "name": "Uma organização criminosa", "alias": "B" },
+        { "id": 4, "name": "Seu próprio medo", "alias": "B" },
+        { "id": 5, "name": "O governo", "alias": "A" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Qual seria seu disfarce?",
+      "options": [
+        { "id": 1, "name": "Um empresário milionário", "alias": "A" },
+        { "id": 2, "name": "Um professor de escola", "alias": "B" },
+        { "id": 3, "name": "Um médico voluntário", "alias": "B" },
+        { "id": 4, "name": "Um atleta famoso", "alias": "A" },
+        { "id": 5, "name": "Um jornalista", "alias": "B" }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Como você lidaria com os vilões?",
+      "options": [
+        { "id": 1, "name": "Punindo-os severamente", "alias": "A" },
+        { "id": 2, "name": "Reabilitando-os", "alias": "B" },
+        { "id": 3, "name": "Prendendo-os para sempre", "alias": "A" },
+        { "id": 4, "name": "Dando-lhes uma segunda chance", "alias": "B" },
+        { "id": 5, "name": "Destruindo-os completamente", "alias": "A" }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Qual seria seu traje?",
+      "options": [
+        { "id": 1, "name": "Preto e intimidador", "alias": "A" },
+        { "id": 2, "name": "Colorido e inspirador", "alias": "B" },
+        { "id": 3, "name": "Camuflado e furtivo", "alias": "B" },
+        { "id": 4, "name": "Luxuoso e chamativo", "alias": "A" },
+        { "id": 5, "name": "Simples e funcional", "alias": "B" }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Como você reagiria ao ser traído por um amigo?",
+      "options": [
+        { "id": 1, "name": "Buscaria vingança", "alias": "A" },
+        { "id": 2, "name": "Tentaria perdoar", "alias": "B" },
+        { "id": 3, "name": "Ficaria em choque", "alias": "B" },
+        { "id": 4, "name": "Planejaria uma retaliação", "alias": "A" },
+        { "id": 5, "name": "Tentaria entender o motivo", "alias": "B" }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Qual seria seu lema?",
+      "options": [
+        { "id": 1, "name": "Poder acima de tudo", "alias": "A" },
+        { "id": 2, "name": "Justiça para todos", "alias": "B" },
+        { "id": 3, "name": "Força e honra", "alias": "B" },
+        { "id": 4, "name": "Dominação total", "alias": "B" }
       ]
     }
   ],
-  "results":{
+  "results": {
     "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "B": "Você muito provavelmente seria um super herói!"
   }
 }
